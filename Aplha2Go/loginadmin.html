@@ -6,29 +6,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/ca14b9e588.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styleloginadmin.css">
+  <link rel="shortcut icon" href="imagens/Alpha_Go_2_2[1406].png" /> 
   <title>Login do administrador</title>
 </head>
 <body>
 
  <div id="form">
-  <form action="">
+  <form action="autenticacao.php" method="POST">
     <h2 class="title">Login do administrador</h2>
 
 
-    <label for="email">Email</label>
+    <label for="email">Email</label required>
     <div class="input">
       
-      <input id="email" name="email"type="text">
+      <input name="email" id="login" type="text" required>
     </div>
 
-      <label for="senha">Senha</label>
+      <label for="senha">Senha</label required>
       <div class="input">
        
-        <input id="senha" name="senha"type="password">
+        <input name="senha" id="senha" type="password" required>
     </div>
 
     <div id="btn">
-      <button type="submit">Cadastrar</button>
+      <button value="entrar" id="entrar" name="entrar" type="submit">Entrar</button>
      </div>
        </form>
     </div> 
