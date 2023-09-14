@@ -1,4 +1,10 @@
 /* CSS reset */
+
+body{
+  margin:15px;
+}
+
+
 *, *:before, *:after { 
     margin:0;
     padding:0;
@@ -143,7 +149,9 @@
     background: #f7f7f7;
     border: 1px solid #4ab3c6;
   }
-  #cadastro, 
+
+  #cadastro,
+
 #login{
   position: absolute;
   top: 0px;
